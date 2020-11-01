@@ -1,0 +1,22 @@
+.hero {
+    min-height: 415px;
+    background: #202123 url(../../../img/lion-head-wide.jpg) right 52% center no-repeat;
+    display: flex;
+    flex-direction: column;  
+    padding-bottom: 27px;
+
+}
+
+.hero__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    color: white;
+}
+
+.hero__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1;
+}

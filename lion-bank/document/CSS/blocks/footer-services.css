@@ -1,0 +1,22 @@
+.inner-footer {
+    margin-top: auto;
+    background: #29282D;
+    color: white;
+}
+
+.footer {
+    margin-top: 5px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__column {
+    display: flex;
+    align-items: center;
+}
+
+.footer__column--align--right {
+    justify-content: flex-end;
+}
