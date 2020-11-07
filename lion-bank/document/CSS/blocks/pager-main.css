@@ -13,17 +13,12 @@
     align-items: center;
 }
 
-.pager__item{
+.pager__item {
     text-align: center;
 }
 
-.pager--theme--light .pager__item--active .pager__link {
+.pager__item--active .pager__link {
     background: #353538;
-    color: white;
-}
-
-.pager--theme--light .pager__link:hover {
-    color: white;
 }
 
 .pager__link:hover {
@@ -61,3 +56,5 @@
     opacity: 1;
     background: #353538;    
 }*/
+
+

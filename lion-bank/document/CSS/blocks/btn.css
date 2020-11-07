@@ -8,6 +8,10 @@
     font-size: 14px;
 }
 
+.btn:hover{
+    transition: .3s;
+}
+
 .btn--color--ginger{
     background: #dfb56d;  
 }
@@ -23,4 +27,12 @@
 
 .btn--color--black:hover {
     background: #dfb56d;   
+}
+
+.btn--color--grey {
+    background: #8E8E8E;
+}
+
+.btn--color--grey:hover {
+    background: #202123;
 }

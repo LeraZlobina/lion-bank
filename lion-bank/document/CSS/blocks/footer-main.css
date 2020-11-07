@@ -1,11 +1,13 @@
-.inner-footer {
+.footer-container {
     margin-top: auto;
-    background: #29282D;
-    color: white;
 }
 
-.inner-footer__container {
-    padding: 43px 0;
+.footer-container__content {
+    border-top: 1px solid #353538;
+}
+
+.footer-container__section {
+    height: 146px;
 }
 
 .footer {
@@ -22,3 +24,11 @@
 .footer__column--align--right {
     justify-content: flex-end;
 }
+
+
+
+
+
+
+
+

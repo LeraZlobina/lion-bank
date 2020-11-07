@@ -41,14 +41,14 @@ body {
 }
 
 .page-content {
-    padding: 59px 0;
-    margin-bottom: 61px;
+    padding: 39px 0;
+    margin-bottom: 83px;
 }
 
 .inner-section {
-    padding: 85px 0;
+    padding-top: 86px;
+    padding-bottom: 53px;
     margin-bottom: 0;
-    height: 537px;
 }
 
 .inner-section--bg--grey {

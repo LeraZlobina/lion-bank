@@ -16,10 +16,12 @@
 
 .service:hover {
     background: #f4f5f5;
+    transition: .3s;
 }
 
 .service:hover .service__btn{
     background: #DFB56D;
+    transition: .3s;
 }
 
 .service__pic {

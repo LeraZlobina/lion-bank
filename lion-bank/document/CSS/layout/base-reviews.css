@@ -3,10 +3,10 @@ html, body {
 }
 
 body {
-    background: #29282D;
+    background: white;
     margin: 0;
     font-size: 16px;
-    color: white;
+    color:  #202020;
     line-height: 1.42;
     font-family: 'Open Sans', Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -21,31 +21,33 @@ body {
     flex-direction: column;
 }
 
-.main-page-wrapper {
-    background: url(../../../img/lion-header.jpg) center top no-repeat, url(../../../img/bottom-pic.png) right -170px bottom 307px no-repeat;
-}
-
 .wrapper__content {
     flex: 1;
 }
 
-.section {
-    margin-bottom: 125px;
-}
-
-.about-section {
-    margin-bottom: 108px;
-}
-
 .section__title {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: bold;
-    margin-bottom: 48px;
+    margin-bottom: 50px;
+    line-height: 1.2;
 }
 
 .container {
     margin: 0 auto;
     width: 1140px;
+}
+
+.page-content {
+    padding: 77px 0;
+    margin-bottom: 33px;
+}
+
+.inner-section {
+    padding: 112px 0;
+}
+
+.inner-section--bg--grey {
+    background: #f4f5f5;
 }
 
 a {
@@ -73,3 +75,26 @@ p {
 * {
     box-sizing: border-box;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+

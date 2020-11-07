@@ -1,7 +1,8 @@
 .header {
-    padding-top: 21px;
+    padding-top: 39px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .header__column {
